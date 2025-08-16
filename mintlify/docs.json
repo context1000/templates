@@ -1,0 +1,135 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Mint Starter Kit",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": ["index", "docs/intro"]
+      },
+      {
+        "group": "Decisions",
+        "pages": [
+          {
+            "group": "Architecture Decision Records",
+            "pages": ["docs/decisions/adr/0001-example.adr"]
+          },
+          {
+            "group": "Request for Comments",
+            "pages": ["docs/decisions/rfc/0001-example.rfc"]
+          }
+        ]
+      },
+      {
+        "group": "Guides",
+        "pages": [
+          "docs/guides/example1.guide",
+          {
+            "group": "Guide Collections",
+            "pages": ["docs/guides/guide1/example2.guide"]
+          }
+        ]
+      },
+      {
+        "group": "Projects",
+        "pages": [
+          {
+            "group": "Project 1",
+            "pages": [
+              "docs/projects/project1/project",
+              {
+                "group": "Guides",
+                "pages": [
+                  "docs/projects/project1/guides/example1.guide",
+                  "docs/projects/project1/guides/subdirectory/example2.guide"
+                ]
+              },
+              {
+                "group": "Decisions",
+                "pages": [
+                  "docs/projects/project1/decisions/adr/0001-example.adr",
+                  "docs/projects/project1/decisions/rfc/0001-example.rfc"
+                ]
+              },
+              {
+                "group": "Rules",
+                "pages": [
+                  "docs/projects/project1/rules/example1.rules",
+                  "docs/projects/project1/rules/subdirectory/example2.rules"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Project 2",
+            "pages": [
+              "docs/projects/subdirectory/project2/project",
+              {
+                "group": "Guides",
+                "pages": [
+                  "docs/projects/subdirectory/project2/guides/example1.guide",
+                  "docs/projects/subdirectory/project2/guides/subdirectory/example2.guide"
+                ]
+              },
+              {
+                "group": "Decisions",
+                "pages": [
+                  "docs/projects/subdirectory/project2/decisions/adr/0001-example.adr",
+                  "docs/projects/subdirectory/project2/decisions/rfc/0001-example.rfc"
+                ]
+              },
+              {
+                "group": "Rules",
+                "pages": [
+                  "docs/projects/subdirectory/project2/rules/example1.rules",
+                  "docs/projects/subdirectory/project2/rules/subdirectory/example2.rules"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Rules",
+        "pages": [
+          "docs/rules/example1.rules",
+          "docs/rules/subdirectory/example2.rules"
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "contextual": {
+    "options": ["copy", "view", "chatgpt", "claude", "perplexity", "mcp", "cursor", "vscode"]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  }
+}
