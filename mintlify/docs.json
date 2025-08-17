@@ -12,7 +12,7 @@
     "groups": [
       {
         "group": "Getting Started",
-        "pages": ["index", "docs/intro"]
+        "pages": ["index"]
       },
       {
         "group": "Decisions",
@@ -98,10 +98,7 @@
       },
       {
         "group": "Rules",
-        "pages": [
-          "docs/rules/example1.rules",
-          "docs/rules/subdirectory/example2.rules"
-        ]
+        "pages": ["docs/rules/example1.rules", "docs/rules/subdirectory/example2.rules"]
       }
     ]
   },
