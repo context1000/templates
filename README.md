@@ -33,3 +33,9 @@ Raw markdown template here: <https://github.com/context1000/docs>
 ## PR are welcome!
 
 If you create working template, please [open PR](https://github.com/context1000/templates/pulls) to add it to the list.
+
+## More information
+
+- [context1000 documentation format](https://github.com/context1000/docs)
+- [RAG+MCP for self-hosted usage](https://github.com/context1000/context1000)
+- [Blog post about context1000](https://www.ivklgn.blog/posts/context1000-architectural-artifacts-for-ai/)
