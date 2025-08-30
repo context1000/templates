@@ -11,10 +11,6 @@
   "navigation": {
     "groups": [
       {
-        "group": "Getting Started",
-        "pages": ["index"]
-      },
-      {
         "group": "Decisions",
         "pages": [
           {
