@@ -15,11 +15,11 @@
         "pages": [
           {
             "group": "Architecture Decision Records",
-            "pages": ["docs/decisions/adr/0001-example.adr"]
+            "pages": ["docs/decisions/adr/example.adr"]
           },
           {
             "group": "Request for Comments",
-            "pages": ["docs/decisions/rfc/0001-example.rfc"]
+            "pages": ["docs/decisions/rfc/example.rfc"]
           }
         ]
       },
@@ -50,8 +50,8 @@
               {
                 "group": "Decisions",
                 "pages": [
-                  "docs/projects/project1/decisions/adr/0001-example.adr",
-                  "docs/projects/project1/decisions/rfc/0001-example.rfc"
+                  "docs/projects/project1/decisions/adr/example.adr",
+                  "docs/projects/project1/decisions/rfc/example.rfc"
                 ]
               },
               {
@@ -77,8 +77,8 @@
               {
                 "group": "Decisions",
                 "pages": [
-                  "docs/projects/subdirectory/project2/decisions/adr/0001-example.adr",
-                  "docs/projects/subdirectory/project2/decisions/rfc/0001-example.rfc"
+                  "docs/projects/subdirectory/project2/decisions/adr/example.adr",
+                  "docs/projects/subdirectory/project2/decisions/rfc/example.rfc"
                 ]
               },
               {
